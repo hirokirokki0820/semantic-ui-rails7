@@ -8,7 +8,7 @@ import "controllers"
 import "jquery"
 
 /* jQuery for Semantic UI  */
-$(function(){
+$(document).on("turbo:load", function() {
 
   /* ドロップダウン */
   $('.ui.dropdown').dropdown();
